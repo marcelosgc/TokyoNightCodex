@@ -1,0 +1,295 @@
+{
+  "name": "TokyoNightCodex",
+  "dark": true,
+  "author": "Marcelo Carvalho",
+  "editorScheme": "TokyoNightCodex.xml",
+  "colors": {
+    "backgroundColor": "#1A1B26",
+    "foregroundColor": "#A9B1D6",
+    "accentColor": "#3A83F7",
+    "cyanColor": "#449DAB",
+    "errorColor": "#914C54",
+    "purpleColor": "#9D7CD8"
+  },
+  "ui": {
+    "*": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "selectionBackground": "accentColor",
+      "selectionForeground": "foregroundColor",
+      "selectionInactiveBackground": "backgroundColor",
+      "selectionBackgroundInactive": "backgroundColor",
+      "disabledBackground": "backgroundColor",
+      "inactiveBackground": "backgroundColor",
+      "errorForeground": "errorColor",
+      "borderColor": "backgroundColor",
+      "disabledBorderColor": "backgroundColor",
+      "focusColor": "accentColor",
+      "focusedBorderColor": "accentColor",
+      "separatorColor": "backgroundColor"
+    },
+    "ActionButton": {
+      "hoverBackground": "backgroundColor",
+      "hoverBorderColor": "accentColor",
+      "pressedBackground": "accentColor",
+      "pressedBorderColor": "accentColor"
+    },
+    "Borders": {
+      "color": "backgroundColor",
+      "ContrastBorderColor": "backgroundColor"
+    },
+    "Button": {
+      "foreground": "foregroundColor",
+      "startBackground": "backgroundColor",
+      "endBackground": "backgroundColor",
+      "startBorderColor": "accentColor",
+      "endBorderColor": "accentColor",
+      "focusedBorderColor": "accentColor",
+      "default": {
+        "foreground": "foregroundColor",
+        "startBackground": "accentColor",
+        "endBackground": "accentColor",
+        "startBorderColor": "accentColor",
+        "endBorderColor": "accentColor",
+        "focusColor": "accentColor",
+        "focusedBorderColor": "accentColor"
+      }
+    },
+    "ComboBox": {
+      "modifiedItemForeground": "purpleColor",
+      "background": "backgroundColor",
+      "nonEditableBackground": "backgroundColor",
+      "selectionBackground": "accentColor",
+      "ArrowButton": {
+        "background": "backgroundColor",
+        "nonEditableBackground": "backgroundColor",
+        "iconColor": "foregroundColor",
+        "disabledIconColor": "backgroundColor"
+      }
+    },
+    "CompletionPopup": {
+      "background": "backgroundColor",
+      "selectionBackground": "accentColor",
+      "selectionInactiveBackground": "backgroundColor",
+      "matchForeground": "purpleColor"
+    },
+    "Component": {
+      "focusColor": "accentColor",
+      "borderColor": "backgroundColor",
+      "focusedBorderColor": "accentColor",
+      "errorFocusColor": "errorColor",
+      "inactiveErrorFocusColor": "errorColor",
+      "warningFocusColor": "purpleColor",
+      "inactiveWarningFocusColor": "purpleColor"
+    },
+    "Counter": {
+      "foreground": "backgroundColor",
+      "background": "cyanColor"
+    },
+    "DragAndDrop": {
+      "areaForeground": "foregroundColor",
+      "areaBackground": "backgroundColor",
+      "areaBorderColor": "accentColor"
+    },
+    "Editor": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "shortcutForeground": "purpleColor"
+    },
+    "EditorTabs": {
+      "background": "backgroundColor",
+      "underlinedTabBackground": "backgroundColor",
+      "underlineColor": "accentColor",
+      "underlineHeight": 2
+    },
+    "Label": {
+      "foreground": "foregroundColor",
+      "errorForeground": "errorColor"
+    },
+    "Link": {
+      "activeForeground": "accentColor",
+      "hoverForeground": "accentColor",
+      "visitedForeground": "purpleColor",
+      "pressedForeground": "purpleColor"
+    },
+    "Notification": {
+      "borderColor": "accentColor",
+      "errorBorderColor": "errorColor",
+      "errorBackground": "backgroundColor",
+      "errorForeground": "foregroundColor",
+      "ToolWindow": {
+        "warningForeground": "foregroundColor",
+        "warningBackground": "backgroundColor",
+        "warningBorderColor": "purpleColor",
+        "errorForeground": "foregroundColor",
+        "errorBorderColor": "errorColor",
+        "errorBackground": "backgroundColor",
+        "informativeForeground": "foregroundColor",
+        "informativeBackground": "backgroundColor",
+        "informativeBorderColor": "cyanColor"
+      }
+    },
+    "Plugins": {
+      "SearchField": {
+        "background": "backgroundColor"
+      },
+      "SectionHeader": {
+        "foreground": "foregroundColor"
+      },
+      "lightSelectionBackground": "backgroundColor",
+      "Button": {
+        "installBorderColor": "accentColor",
+        "installForeground": "accentColor",
+        "installBackground": "backgroundColor",
+        "installFillForeground": "backgroundColor",
+        "installFillBackground": "accentColor",
+        "installFocusedBackground": "backgroundColor",
+        "updateBorderColor": "accentColor",
+        "updateForeground": "foregroundColor",
+        "updateBackground": "accentColor"
+      },
+      "Tab": {
+        "selectedBackground": "backgroundColor",
+        "selectedForeground": "foregroundColor",
+        "hoverBackground": "backgroundColor"
+      }
+    },
+    "ProgressBar": {
+      "failedColor": "errorColor",
+      "failedEndColor": "errorColor",
+      "trackColor": "backgroundColor",
+      "progressColor": "accentColor",
+      "indeterminateStartColor": "purpleColor",
+      "indeterminateEndColor": "purpleColor",
+      "passedColor": "cyanColor",
+      "passedEndColor": "cyanColor"
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "backgroundColor",
+        "inactiveBackground": "backgroundColor"
+      }
+    },
+    "SearchEverywhere": {
+      "SearchField": {
+        "background": "backgroundColor"
+      },
+      "Tab": {
+        "selectedBackground": "accentColor",
+        "selectedForeground": "foregroundColor"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "purpleColor",
+      "endBackground": "purpleColor"
+    },
+    "Separator.separatorColor": "backgroundColor",
+    "TabbedPane": {
+      "tabSelectionHeight": 2,
+      "focusColor": "backgroundColor",
+      "hoverColor": "backgroundColor",
+      "underlineColor": "accentColor",
+      "contentAreaColor": "backgroundColor"
+    },
+    "ToggleButton": {
+      "onBackground": "cyanColor",
+      "onForeground": "backgroundColor",
+      "offBackground": "backgroundColor",
+      "offForeground": "foregroundColor",
+      "buttonColor": "foregroundColor"
+    },
+    "ToolWindow": {
+      "background": "backgroundColor",
+      "borderColor": "backgroundColor",
+      "Button": {
+        "hoverBackground": "backgroundColor"
+      },
+      "Header": {
+        "background": "backgroundColor",
+        "inactiveBackground": "backgroundColor"
+      },
+      "HeaderTab": {
+        "underlineColor": "accentColor",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "backgroundColor",
+        "underlinedTabInactiveBackground": "backgroundColor"
+      }
+    },
+    "Tree": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "modifiedItemForeground": "purpleColor",
+      "selectionBackground": "accentColor",
+      "selectionInactiveBackground": "backgroundColor"
+    },
+    "List": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "selectionBackground": "accentColor",
+      "selectionForeground": "foregroundColor"
+    },
+    "Table": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "selectionBackground": "accentColor",
+      "selectionForeground": "foregroundColor"
+    },
+    "TextField": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "selectionBackground": "accentColor",
+      "selectionForeground": "foregroundColor"
+    },
+    "TextArea": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "selectionBackground": "accentColor",
+      "selectionForeground": "foregroundColor"
+    },
+    "Menu": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "selectionBackground": "accentColor",
+      "selectionForeground": "foregroundColor"
+    },
+    "MenuItem": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "selectionBackground": "accentColor",
+      "selectionForeground": "foregroundColor"
+    },
+    "Panel": {
+      "background": "backgroundColor"
+    },
+    "StatusBar": {
+      "background": "backgroundColor",
+      "borderColor": "backgroundColor",
+      "hoverBackground": "backgroundColor"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "errorColor",
+      "errorBorderColor": "errorColor",
+      "warningBorderColor": "purpleColor",
+      "warningBackground": "backgroundColor"
+    },
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "backgroundColor"
+        }
+      },
+      "GitLog": {
+        "headIconColor": "accentColor",
+        "localBranchIconColor": "cyanColor",
+        "remoteBranchIconColor": "purpleColor",
+        "tagIconColor": "purpleColor",
+        "otherIconColor": "foregroundColor"
+      },
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "backgroundColor"
+        }
+      }
+    }
+  }
+}
