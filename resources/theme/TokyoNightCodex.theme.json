@@ -4,12 +4,14 @@
   "author": "Marcelo Carvalho",
   "editorScheme": "TokyoNightCodex.xml",
   "colors": {
-    "backgroundColor": "#1A1B26",
+    "backgroundColor": "#1b2130",
+    "backgroundSeparator": "#293347",
     "foregroundColor": "#A9B1D6",
     "accentColor": "#3A83F7",
     "cyanColor": "#449DAB",
     "errorColor": "#914C54",
-    "purpleColor": "#9D7CD8"
+    "purpleColor": "#9D7CD8",
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -22,12 +24,20 @@
       "disabledBackground": "backgroundColor",
       "inactiveBackground": "backgroundColor",
       "errorForeground": "errorColor",
-      "borderColor": "backgroundColor",
+      "borderColor": "backgroundSeparator",
       "disabledBorderColor": "backgroundColor",
       "focusColor": "accentColor",
       "focusedBorderColor": "accentColor",
-      "separatorColor": "backgroundColor"
+      "separatorColor": "backgroundSeparator"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 12,
+      "borderWidth": 5,
+      "inactiveAlpha": 0.35,
+      "inactiveAlphaInStatusBar": 0.35
+    },
+    "Island.borderColor": "transparent",
     "ActionButton": {
       "hoverBackground": "backgroundColor",
       "hoverBorderColor": "accentColor",
@@ -35,7 +45,7 @@
       "pressedBorderColor": "accentColor"
     },
     "Borders": {
-      "color": "backgroundColor",
+      "color": "backgroundSeparator",
       "ContrastBorderColor": "backgroundColor"
     },
     "Button": {
@@ -98,7 +108,7 @@
     },
     "EditorTabs": {
       "background": "backgroundColor",
-      "underlinedTabBackground": "backgroundColor",
+      "underlinedTabBackground": "backgroundSeparator",
       "underlineColor": "accentColor",
       "underlineHeight": 2
     },

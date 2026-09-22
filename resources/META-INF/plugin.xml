@@ -1,12 +1,13 @@
 <idea-plugin>
   <id>TokyoNightCodex</id>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>TokyoNightCodex</name>
   <category>UI</category>
   <vendor>Marcelo Carvalho</vendor>
   <idea-version since-build="142"/>
   <description>TokyoNightCodex dark theme based on the approved Codex Tokyo Night color palette.</description>
-  <change-notes>Initial release 1.0.</change-notes>
+  <change-notes>Update the colors of the UI to be different from text editor. Added Island-UI theme tags. Updates in line
+    numbers and separator to be more faded. </change-notes>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="TokyoNightCodex" path="/theme/TokyoNightCodex.theme.json"/>

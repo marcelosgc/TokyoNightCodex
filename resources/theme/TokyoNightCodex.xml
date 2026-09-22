@@ -13,18 +13,18 @@
     <option name="FILESTATUS_MERGED" value="9d7cd8" />
     <option name="FILESTATUS_UNKNOWN" value="449dab" />
     <option name="GUTTER_BACKGROUND" value="1a1b26" />
-    <option name="INDENT_GUIDE" value="584679" />
-    <option name="LINE_NUMBERS_COLOR" value="584679" />
+    <option name="INDENT_GUIDE" value="272F43" />
+    <option name="LINE_NUMBERS_COLOR" value="272F43" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a9b1d6" />
     <option name="MODIFIED_LINES_COLOR" value="3a83f7" />
-    <option name="RIGHT_MARGIN_COLOR" value="584679" />
+    <option name="RIGHT_MARGIN_COLOR" value="272F43" />
     <option name="SELECTED_INDENT_GUIDE" value="3a83f7" />
     <option name="SELECTED_TEARLINE_COLOR" value="3a83f7" />
     <option name="SELECTION_BACKGROUND" value="3a83f7" />
     <option name="SEPARATOR_ABOVE_COLOR" value="1a1b26" />
     <option name="SEPARATOR_BELOW_COLOR" value="1a1b26" />
-    <option name="TEARLINE_COLOR" value="584679" />
-    <option name="VISUAL_INDENT_GUIDE" value="584679" />
+    <option name="TEARLINE_COLOR" value="272F43" />
+    <option name="VISUAL_INDENT_GUIDE" value="272F43" />
     <option name="WHITESPACES" value="9d7cd8" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="3a83f7" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="9d7cd8" />
@@ -36,7 +36,7 @@
     <option name="DOCUMENTATION_COLOR" value="1a1b26" />
     <option name="INFORMATION_HINT" value="1a1b26" />
     <option name="LOOKUP_COLOR" value="1a1b26" />
-    <option name="METHOD_SEPARATORS_COLOR" value="584679" />
+    <option name="METHOD_SEPARATORS_COLOR" value="272F43" />
     <option name="RECENT_LOCATIONS_SELECTION" value="3a83f7" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="1a1b26" />
   </colors>
