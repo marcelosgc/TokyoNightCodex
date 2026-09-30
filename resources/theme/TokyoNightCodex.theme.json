@@ -7,10 +7,10 @@
     "backgroundColor": "#1b2130",
     "backgroundSeparator": "#293347",
     "foregroundColor": "#A9B1D6",
-    "accentColor": "#3A83F7",
-    "cyanColor": "#449DAB",
-    "errorColor": "#914C54",
-    "purpleColor": "#9D7CD8",
+    "accentColor": "#5B6F9E",
+    "cyanColor": "#5C8994",
+    "errorColor": "#8E5965",
+    "purpleColor": "#8878A7",
     "transparent": "#00000000"
   },
   "ui": {
